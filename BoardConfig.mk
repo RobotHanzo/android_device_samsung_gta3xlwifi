@@ -46,6 +46,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 TARGET_PREBUILT_KERNEL := $(DEVICE_FOLDER)/prebuilt/kernel
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_FOLDER)/prebuilt/recovery_dtbo
+BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 #BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_FOLDER)/bootimg.mk
 
 # Partitions
