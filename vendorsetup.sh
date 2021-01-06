@@ -47,6 +47,7 @@ Default_Settings() {
   	[ "$OF_USE_MAGISKBOOT_FOR_ALL_PATCHES" = "1" ] && export OF_USE_MAGISKBOOT="1"
 }
 
+Default_Settings
 
 add_lunch_combo omni_gta3xlwifi-eng
 
