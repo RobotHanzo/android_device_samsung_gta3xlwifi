@@ -34,7 +34,7 @@ Default_Settings() {
 	export FOX_VERSION="R11.1"
 	export USE_CCACHE="1"
 	export OF_FLASHLIGHT_ENABLE="0"
-	#export OF_SCREEN_H="960" # 1920:1200 / 8:5 / 8*120 / this somehow doesn't work
+	export OF_SCREEN_H="1920" # 1920:1200 / 8:5 / 8*120 / changing to 960 somehow doesn't work
 	export OF_MAINTAINER="RobotHanzo"
 
   	# lzma
