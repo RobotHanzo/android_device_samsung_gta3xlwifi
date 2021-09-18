@@ -31,7 +31,8 @@ Default_Settings() {
 	export OF_USE_NEW_MAGISKBOOT="1"
 	export TARGET_ARCH="arm64"
 	export TW_DEFAULT_LANGUAGE="en"
-	export FOX_VERSION="R11.1"
+	export FOX_BUILD_TYPE="Beta"
+	export FOX_VERSION="R11.1_0"
 	export USE_CCACHE="1"
 	export OF_FLASHLIGHT_ENABLE="0"
 	export OF_SCREEN_H="1920" # 1920:1200 / 8:5 / 8*120 / changing to 960 somehow doesn't work
