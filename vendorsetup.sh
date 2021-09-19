@@ -38,6 +38,7 @@ Default_Settings() {
 	export OF_SCREEN_H="1920" # 1920:1200 / 8:5 / 8*120 / changing to 960 somehow doesn't work
 	export OF_USE_GREEN_LED="0"
 	export OF_MAINTAINER="RobotHanzo"
+	export OF_MAINTAINER_AVATAR="~/ofrp/avatar.png"
 
   	# lzma
   	[ "$FOX_USE_LZMA_COMPRESSION" = "1" ] && export LZMA_RAMDISK_TARGETS="recovery"
