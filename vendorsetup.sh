@@ -51,6 +51,3 @@ Default_Settings() {
 }
 
 Default_Settings
-
-add_lunch_combo omni_gta3xlwifi-eng
-
