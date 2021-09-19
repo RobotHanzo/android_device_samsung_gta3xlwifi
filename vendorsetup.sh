@@ -15,6 +15,7 @@
 #
 
 Default_Settings() {
+	echo "Exporting build enviorment variables."
 	export ALLOW_MISSING_DEPENDENCIES=true
 	export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13500000.dwmmc0/by-name/recovery"
 	export FOX_REPLACE_BUSYBOX_PS="1"
@@ -48,6 +49,7 @@ Default_Settings() {
 
   	# magiskboot
   	[ "$OF_USE_MAGISKBOOT_FOR_ALL_PATCHES" = "1" ] && export OF_USE_MAGISKBOOT="1"
+	echo "Done."
 }
 
 Default_Settings
