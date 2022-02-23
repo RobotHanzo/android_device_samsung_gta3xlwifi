@@ -17,7 +17,6 @@
 Default_Settings() {
 	echo "Exporting build enviorment variables."
 	export ALLOW_MISSING_DEPENDENCIES=true
-	export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/platform/13500000.dwmmc0/by-name/recovery"
 	export FOX_REPLACE_BUSYBOX_PS="1"
 	export FOX_USE_BASH_SHELL="1"
 	export FOX_USE_LZMA_COMPRESSION="1"
@@ -39,7 +38,6 @@ Default_Settings() {
 	export OF_SCREEN_H="1920" # 1920:1200 / 8:5 / 8*120 / changing to 960 somehow doesn't work
 	export OF_USE_GREEN_LED="0"
 	export OF_MAINTAINER="RobotHanzo"
-	export OF_MAINTAINER_AVATAR="/home/nathan/ofrp/avatar.png"
 
   	# lzma
   	[ "$FOX_USE_LZMA_COMPRESSION" = "1" ] && export LZMA_RAMDISK_TARGETS="recovery"
