@@ -29,6 +29,7 @@ Default_Settings() {
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
 	export OF_USE_NEW_MAGISKBOOT="1"
+	export OF_AB_DEVICE="1"
 	export TARGET_ARCH="arm64"
 	export TW_DEFAULT_LANGUAGE="en"
 	export FOX_BUILD_TYPE="Beta"
