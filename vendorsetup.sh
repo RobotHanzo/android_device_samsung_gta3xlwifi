@@ -17,9 +17,9 @@
 Default_Settings() {
 	echo "Exporting build enviorment variables."
 	export ALLOW_MISSING_DEPENDENCIES=true
-	export FOX_REPLACE_BUSYBOX_PS="1"
-	export FOX_USE_BASH_SHELL="1"
-	export FOX_USE_LZMA_COMPRESSION="1"
+	#export FOX_REPLACE_BUSYBOX_PS="1"
+	#export FOX_USE_BASH_SHELL="1"
+	#export FOX_USE_LZMA_COMPRESSION="1"
 	export FOX_USE_NANO_EDITOR="1"
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER="1"
 	export FOX_RECOVERY_INSTALL_PARTITION="/dev/block/by-name/recovery"
@@ -29,7 +29,6 @@ Default_Settings() {
 	export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
 	export OF_USE_NEW_MAGISKBOOT="1"
-	export OF_AB_DEVICE="1"
 	export TARGET_ARCH="arm64"
 	export TW_DEFAULT_LANGUAGE="en"
 	export FOX_BUILD_TYPE="Beta"
@@ -48,7 +47,7 @@ Default_Settings() {
 
   	# magiskboot
   	[ "$OF_USE_MAGISKBOOT_FOR_ALL_PATCHES" = "1" ] && export OF_USE_MAGISKBOOT="1"
-	echo "Done."
+	echo "Finished configuring OrangeFox build variables."
 }
 
 Default_Settings
